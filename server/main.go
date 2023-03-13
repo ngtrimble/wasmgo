@@ -30,6 +30,6 @@ func main() {
 
 	http.Handle("/", http.FileServer(http.FS(os.DirFS(serveDir))))
 
-	fmt.Printf("Serving on http://127.0.0.1.:8008\n")
+	fmt.Printf("Serving on http://127.0.0.1.:8080\n")
 	http.ListenAndServe(":8080", nil)
 }

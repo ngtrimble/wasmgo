@@ -8,6 +8,14 @@ value that a well designed framework can provide to work with the DOM and to
 automatically create functions to marshal to and from the JavaScript Virtual
 Machine.
 
+## Dependencies
+
+To run these examples you need:
+
+* Go / Tinygo (see build.sh)
+* sh
+* Wasmer
+
 ## Build 
 
 ```shell
@@ -20,3 +28,4 @@ Machine.
 ./run.sh
 ```
 
+Open your browser to http://localhost:8080

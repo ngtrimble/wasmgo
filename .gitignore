@@ -1,1 +1,4 @@
 /dist
+server/*.o
+server/*.h
+server/*.wasm
